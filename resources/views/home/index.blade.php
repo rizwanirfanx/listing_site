@@ -52,6 +52,7 @@
 @endsection
 
 @extends('layouts.master')
+{{ddd("HERE ME FACE");}}
 
 @section('search')
 	@parent
