@@ -1,0 +1,48 @@
+# Ignore vendor directory (Composer dependencies)
+/vendor/
+
+# Ignore .env file containing environment-specific configurations
+.env
+
+# Ignore .env.* files for environment-specific configurations
+.env.*
+
+# Ignore storage directory for generated files
+/storage/
+
+# Ignore session and cache files
+/storage/framework/sessions/
+/storage/framework/views/
+/storage/framework/cache/
+sub.zecanto.org-v1.6.zip
+*.zip
+
+
+
+# Ignore log files
+/storage/logs/
+
+# Ignore npm modules (if using npm for frontend assets)
+/node_modules/
+
+# Ignore compiled CSS and JS assets
+/public/css/
+/public/js/
+
+# Ignore SQLite database file
+/database/*.sqlite
+
+# Ignore user-specific files
+Homestead.yaml
+Homestead.json
+*.sublime-project
+*.sublime-workspace
+*.idea/
+
+# Ignore PHPStorm metadata
+.phpstorm.meta.php
+
+# Ignore local development configuration
+//local/
+/config/local/*
+

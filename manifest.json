@@ -1,0 +1,15 @@
+{
+    "short_name": "zecanto",
+    "name": "zecanto",
+    "theme_color": "#F26C22",
+    "background_color": "#FAFAFA",
+    "display": "standalone",
+    "icons": [{
+            "src": "images/1444.png",
+            "type": "image/png",
+            "sizes": "144x144"
+        }
+        
+    ],
+    "start_url": "/"
+}

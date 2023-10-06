@@ -1,0 +1,10 @@
+{
+    "name": "whatsapp",
+    "version": "1.0",
+    "display_name": "Whatsapp",
+    "description": "Payment with Whatsapp",
+    "author": "Bedigit",
+    "category": "payment",
+    "has_installer": true,
+    "item_id": ""
+}

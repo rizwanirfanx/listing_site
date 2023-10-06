@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "locantoasia-374416",
+  "private_key_id": "7aea4fcefa6f072463d41a815800b874ce9d8db6",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDbECLhguaLJ8dn\n+XbL1R+mkH2gSip6kcLmVJBXr78Ww1k67MgyQHrgucoCOdWMf1O2nmhlrArVKvMj\nXW/ICnY8DoTuZSHWSFKYU744XCQHmt9pZBg/co9wmn3ICpCuoXY0eETpPxqNT6YB\nV44zWnOCo6lSEfO5IER+AnpB2OJtbIZ2qvCp4kFF7gZnV38U30MShkfXs+Lps6US\nK7hU/BQrWqnVo9GNGleKE70Ikwb1YGuoByvB71hROjtVjJM9iEpHfp2zRfstT2rd\noAZsU2k78eJN0eGDQsycK5V0tbzfAkV9VhkJhqshuQ1ev5rcYnJ5OlGFFPu4nYcz\nE0jZ24H/AgMBAAECggEAGoO2em3PR7011oY29G7vA3MZBtiokZNTmsYA0+GIEyeW\nhO+klOiBtvI7MCUd4taFJGUXT7m7dJexPBuSwbdPyO8c9ISLIZY5YQnpy9qN2y8f\nUXCgZWA8BQNorANosFUHVfckqB1Ph8EXNQcK8COc4uK6Rh5kIzPI9n4y8Vtgn0u6\ncG4vbjcAXCB/7d2BgcFQ6GQsqTLR+Vdagkk0yCXvh90l89dewuUeDOafWayd1e//\n963wJvRgdiCh8F4JpZjFi/EE3Ces4/YA2/JPYqEEXVpJ+HIvGvyAQHeJPQmEJgxW\ng/KJriL7lnuN4/xfIsjUHk7qeEzXElU8JZyl7jmO+QKBgQDtS6h34uryUWcJKfcS\nKW72VvxoR/ZeSX6HyQEcVR98uPW+xfCe+23N4ySTiNYYJWpsfp1yVKY8cd0vowRk\nJEF9+wItZRmdrFXvqvCjROdfXLIE6Q2/c9SNAcKroJ+vnZStTRe1Syy5DnWa6ifY\nS6UoZjvrwJFNpx6mbsod9/N0cwKBgQDsVJFeyNhv2RQKtRLnjy/MBBBlaDC831Vn\nKNaOvs741ObVaBBRYZSVCHlFhhuNMLL4BK26mlqWYA3mQr/5BWIFY17ylfPgFMyH\n4gTK3Br9lez6Ng/p6Rpig0blfEH9pka1eOu1H/+tHUj26Ga7wvJRJfgZx4F5MFl1\nR/oXi1WlRQKBgQCkdMbxL4b9IYVzSG4/XA/XEjokW5tXhT/4A0qNxEDqQ5Ws/anh\nxQc4pa93wGIAog2725Rq5FfBlHhix2wHq0jocsnzhBnYuNNmIuZbgSmJYcjOtmYc\nxb4Na6brI4sIPwIHiWJg9xSrvGWtU5MByItSEGh+3xrU4nnPhwD0/B7yGQKBgQDh\nDsv9ctFC+nwuki/1mpNO+1PN7oHza8+91NM2zxj1OHK3KknX5lCD+LTcc5ELTSQy\nMupq+RFpgQHblReSgwDM1swVwp2jeMsqYCBmO2PsuHkb8p4HCLjatd+vLTz+2/kc\nWpJFQ7rNVkUk9T7YchcnFjyF+EshaNzYZnoRL9yY7QKBgQC/eUhTvsf26DnVrjys\nUqb66UJhsr5qQBOdNxEXjFFfZn99Lz18V7NyfEGyygMR4/5892Mvj7VZshp9mveZ\nxBTyzUQ/2euUikkNE5xZ5rf3XKUeG4czguTuIDBEn8ttn/amWigLvKHdGA5bLX+T\nvkrkm2HRUd5o20fG5vDVd2RqXA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "locantoasiaads@locantoasia-374416.iam.gserviceaccount.com",
+  "client_id": "111552162368020044584",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/locantoasiaads%40locantoasia-374416.iam.gserviceaccount.com"
+}

@@ -1,0 +1,59 @@
+version: "3.7"
+services:
+  app:
+    build:
+      args:
+        user: sammy
+        uid: 1000
+      context: ./
+      dockerfile: Dockerfile
+    image: travellist
+    container_name: laraclass-app
+    restart: unless-stopped
+    working_dir: /var/www/
+    volumes:
+      - ./:/var/www
+    networks:
+      - laraclass
+
+  db:
+    image: mysql:5.7
+    container_name: laraclass-db
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: laraclass
+      MYSQL_ALLOW_EMPTY_PASSWORD: 'yes'
+      MYSQL_PASSWORD: ''
+      SERVICE_TAGS: dev
+      SERVICE_NAME: mysql
+    volumes:
+      - ./docker-compose/mysql:/docker-entrypoint-initdb.d
+    networks:
+      - laraclass
+  phpmyadmin:
+    image: phpmyadmin
+    restart: always
+    ports:
+      - 8080:80
+
+    environment:
+      - PMA_ARBITRARY=1
+      - PMA_HOSTS:db
+      - PMA_PORT:3306
+    networks:
+      - laraclass
+  nginx:
+    image: nginx:alpine
+    container_name: laraclass-nginx
+    restart: unless-stopped
+    ports:
+      - 8003:80
+    volumes:
+      - ./:/var/www
+      - ./docker-compose/nginx:/etc/nginx/conf.d/
+    networks:
+      - laraclass
+
+networks:
+  laraclass:
+    driver: bridge
